@@ -1,0 +1,49 @@
+#container {
+  margin: 100px auto;
+  padding: 50px;
+  display: flex;
+ flex-direction: column;
+  border: 5px dotted palevioletred;
+  border-radius: 50px 5px;
+  width: 600px;
+  align-items: center;
+}
+  ul {
+    margin: 0;
+      text-decoration: none;
+    padding: 0;
+  }
+   ul li{
+     list-style-type: none;
+      border: 1px solid pink;
+      cursor: pointer;
+     position: relative;
+      padding: 12px 8px 12px 40px;
+      background: #eee;
+      font-size: 18px;
+    
+
+   }
+  ul li:hover {
+    background: #ddd;
+  }
+    #btnAdd{
+        align-content: center;
+        border: 1px dotted pink;
+        background-color:lightpink;
+        height: 30px;
+        width: 80px auto;
+    }
+    #ToDo{
+        border: double 1px plum;
+        height: 30px;
+        width: 67%;
+    
+    }
+    #deletebox{
+    position: absolute;
+    right: 0;
+    text-decoration: none;
+    }
+    
+      
