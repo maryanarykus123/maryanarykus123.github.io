@@ -26,14 +26,14 @@ h1{
     text-align: center;
     font-size: 18px;
 }
-#Сurrency{
+#currency{
     border-radius: 15px;
     margin-left: 250px;
     width:100px;
    font-size: 18px;
    background-color: slategray;
 }
-#sdate, #edate{
+#cdate, #edate{
     text-align: center;
     margin-left: 50px;
     border-radius: 15px;
