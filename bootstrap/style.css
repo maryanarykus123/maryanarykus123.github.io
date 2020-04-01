@@ -1,0 +1,20 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#container{
+    display: flex;
+ 
+    justify-content:space-around;
+
+}
+}
+#first{
+    height: 500px;
+}
+#firstforo{
+    weight:50%;
+}
+#secondfoto{
+    weight:50%
+}

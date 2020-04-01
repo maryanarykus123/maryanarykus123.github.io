@@ -37,7 +37,6 @@ function addToDoItem(e) {
                 toDoItem.remove();
             }
         }
-
         toDoList.push(ToDo.value);
         ToDo.value = "";
     }
