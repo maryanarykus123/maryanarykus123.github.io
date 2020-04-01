@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap" rel="stylesheet">
+    <title>Document</title>
+</head>
+
+<body>
+    <div id="header">
+        <h1>Дізнайтесь курс валют</h1>
+        <p><select id="Сurrency">
+                <option value="USD">&#36; USD</option>
+                <option value="EUR">&euro; EUR</option>
+                <option value="PLN">z&#x142; PLN</option>
+            </select>
+            <p>Виберіть дату:</p>
+            <input type="date" name="sdate" id="sdate">
+            <input type="date" name="edate" id="edate">
+            <input type="button" value="Пошук" id="btnCalc">
+    </div>
+    <div id="result">
+        <h1>графік курса  валюти НБУ</h1>
+        <canvas id="NBY" width="200" height="200">
+    </div>
+    <script src="1.js"></script>
+</body>
+
+</html>
