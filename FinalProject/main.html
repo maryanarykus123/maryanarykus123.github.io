@@ -6,25 +6,30 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap" rel="stylesheet">
+    <script src="https://code.highcharts.com/highcharts.js"></script>
     <title>Document</title>
 </head>
 
 <body>
-    <div id="header">
+    <form action="" method="get">
+    <div id="header">  
+        <div class="conteiner">
+            <div class="right">
+                <div class="chosevalute">
         <h1>Дізнайтесь курс валют</h1>
-        <select name="currency" id="currency">
+        <select name="valute" id="currency">
                 <option value="USD">&#36; USD</option>
                 <option value="EUR">&euro; EUR</option>
                 <option value="PLN">z&#x142; PLN</option>
             </select>
             <p>Виберіть дату:</p>
-            <input type="date" name="cdate" id="cdate">
-            <input type="date" name="edate" id="edate">
-            <input type="button" value="Пошук" id="btnCalc">
+            <input type="date" name="sdate" id="sdate">
+            <input type="date" name="ndate" id="ndate">
+            <input type="button" value="Get Result" id = "btnGetRateValute">
     </div>
+    <div id = 'button'>
     <div id="result">
         <h1>графік курса  валюти НБУ</h1>
-        <canvas id="NBY" width="200" height="200">
     </div>
     <script src="1.js"></script>
 </body>

@@ -33,13 +33,13 @@ h1{
    font-size: 18px;
    background-color: slategray;
 }
-#cdate, #edate{
+#sdate, #ndate{
     text-align: center;
     margin-left: 50px;
     border-radius: 15px;
     font-size: 18px;
 }
-#btnCalc{
+#btnGetRateValute{
     margin-top: 200px;
     border-radius: 15px;
     margin-left: 200px;
