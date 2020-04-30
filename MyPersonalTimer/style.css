@@ -3,6 +3,10 @@
     margin: 80px auto;
     padding: 0;
 }
+    .flex-container {
+     display: -webkit-inline-flex;
+     display: inline-flex; 
+    }
     #FormTimer{
     background-color: lightcyan;
     width: 400px;
@@ -40,8 +44,20 @@
     align-content: center;
     font-size: 42px;
     height: 50px;
-    width: 150px;
-    margin:auto 50%;
+    width: 150px auto;
+    margin:0px 20px 0px 35%;
     border-radius: 10px;
    
+}
+#btnClear{
+  align-content: space-betweenS;
+    background-color: rgb(162, 171, 211);
+    align-content: center;
+    font-size: 42px;
+    height: 50px;
+    width: 150px;
+    justify-content: right;
+    margin:0;
+    border-radius: 10px;
+
 }
