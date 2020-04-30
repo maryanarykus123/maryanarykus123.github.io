@@ -1,14 +1,25 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Bitter&display=swap" rel="stylesheet">
 </head>
-<body onload="timer">
-    секунд пройшло
-    <span id="count">-1 </span>
+
+<body>
+    <h1 id="h1text">My Personal Timer</h1>>
+    <section id="FormTimer">
+        <div id="slot">
+            <br><span id="first">h:</span> <span id="countHours"> 0 </span>
+            <span>m: </span><span id="countMin"> 0 </span>
+            <span>s: </span><span id="countSec"> 0 </span>
+        </div>
+    </section>
+    <button id="btnStart" type="button">Start</button>
     <script src="1.js"></script>
 </body>
+
 </html>
